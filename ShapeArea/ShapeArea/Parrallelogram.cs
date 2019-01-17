@@ -42,8 +42,15 @@ namespace Parrallelogram
 
             public void CalculateArea()
             {
-
-                Console.WriteLine(this.Base * this.Height);
+            Console.WriteLine("You are about to calculate an area of a parrallelogram.");
+            Console.WriteLine("Enter the Base: ");
+            double ReadBase = Console.Read();
+            setBase(ReadBase);
+            
+            Console.WriteLine("Enter the Height: ");
+            double ReadHeight = Console.Read();
+            setHeight(ReadHeight);
+            Console.WriteLine(this.Base * this.Height);
             }
 
         }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ShapeArea
+namespace Shapes
 {
     class Rectangle
     {
@@ -19,7 +19,7 @@ namespace ShapeArea
             Console.WriteLine("Enter height: ");
             _height = Convert.ToDouble(Console.ReadLine());
             area = _base * _height;
-            Console.WriteLine("Your area is: " + area);
+            Console.WriteLine("Your area is: ", area);
         }
         /*
         public void setDimensions(double b, double h)

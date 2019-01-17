@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ShapeArea
 {
-    class Class1
+    class Triangle
     {
         private double Base;
         private double Height;
